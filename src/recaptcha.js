@@ -87,7 +87,7 @@ export default class ReCAPTCHA extends React.Component {
       while (this.captcha.firstChild) {
         this.captcha.removeChild(this.captcha.firstChild);
       }
-      this.reset();
+      // this.reset();
     }
   }
 
